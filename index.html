@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSCRIÇÃO</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,100&display=swap" rel="stylesheet">
+</head>
+<body background="./images/bg_cadastro2.png">
+    <div class="containerglass">
+        <header><h1>INSCRIÇÃO</h1></header>
+        <form id="form-inscricao">
+            <input type="text" id="nome-inscricao" required placeholder="Seu nome"/>
+            <input type="tel" id="celular-inscricao" required placeholder="Seu celular com DDD" pattern="[0-9]{11}"/>
+            <input type="email" id="email-inscricao" required placeholder="Seu e-mail"/>
+            <button type="submit">INSCREVER</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
